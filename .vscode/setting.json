@@ -1,0 +1,28 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "javascript.format.enable": false,
+  "eslint.alwaysShowStatus": true,
+  "files.autoSave": "onFocusChange",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName":".css",
+      "savePath":"~/../"
+    },
+    {
+      "format": "compressed",
+      "extensionName":".min.css",
+      "savePath":"~/../"
+    }
+  ],
+  "liveSassComplie.settings.generateMap":false,
+  "liveSassComplie.settings.includeItems": [
+    "/css/scss/ *.scss"
+  ]
+}
